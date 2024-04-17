@@ -1,4 +1,4 @@
-Ejecutar la página web desde el repositorio remoto:
+# Ejecutar la página web desde el repositorio remoto:
 
 ```bash
 npm run dev
@@ -10,18 +10,19 @@ pnpm dev
 bun dev
 ```
 
+# Dirección de la página en el navegador web:
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+
+# Estilos de la página
 para los estilos es en layout, para la estructura de la pagina es en page:
 
-
-
+## Diseño
 https://www.figma.com/file/d6rNJwKnVz0Cd6m1cvOXh8/Untitled?type=design&node-id=0-1&mode=design&t=AMVKzDrmEn2a83Wn-0
 
-
-
+# Base de datos
 https://dbdiagram.io/d/SpeedMentoring-659b5c6fac844320ae6b3759
 
 
-Ejemplo de repositorio con una página web:
+# Ejemplo de repositorio con una página web:
 https://github.com/JorgeMike/TechEra/tree/main/app
