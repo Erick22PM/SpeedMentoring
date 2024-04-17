@@ -1,3 +1,10 @@
+# Descargar repositorio
+```bash
+git clone https://github.com/Erick22PM/SpeedMentoring.git
+
+npm i
+```
+
 # Ejecutar la página web desde el repositorio remoto:
 
 ```bash
