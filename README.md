@@ -8,13 +8,14 @@ npm i
 # Hacer cambios desde el repositorio remoto:
 Para obtener los cambios de la rama main
 ```bash
-git add .
-git commit -m "texto describiendo qué cambios se hicieron"
 git pull origin main
 ```
 
 Para subir los cambios a la rama main
-```bashgit push origin main
+```bash
+git add .
+git commit -m "texto describiendo qué cambios se hicieron"
+git push origin main
 ```
 
 # Ejecutar la página web desde el repositorio remoto:
