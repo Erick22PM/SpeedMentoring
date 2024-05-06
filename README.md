@@ -1,3 +1,7 @@
+# Descargas
+https://nodejs.org/en
+https://getbootstrap.com/
+
 # Descargar repositorio
 ```bash
 git clone https://github.com/Erick22PM/SpeedMentoring.git
