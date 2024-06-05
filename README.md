@@ -6,7 +6,11 @@ https://getbootstrap.com/
 ```bash
 git clone https://github.com/Erick22PM/SpeedMentoring.git
 
+code .
+
 npm i
+
+
 ```
 
 # Hacer cambios desde el repositorio remoto:
