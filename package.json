@@ -10,9 +10,12 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "next": "14.2.1",
-    "react": "^18",
-    "react-dom": "^18"
+    "install": "^0.13.0",
+    "next": "^14.2.3",
+    "or": "^0.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "@types/node": "^20",
