@@ -10,11 +10,19 @@ export default function Page() {
         <div className="container-sm" style={{ backgroundColor: 'rgba(0, 43, 122, 0.8)', borderRadius: '25px' }}>
           <div className="container">
             <div className="row w-100 no-gutters">
-              <div className="col-md-6 d-flex align-items-center justify-content-center">
-                <div className="container-sm" style={{ backgroundColor: 'rgba(239, 202, 69, 1)', borderRadius: '10px' }}>
-                  HOla
-                </div>
-              </div>
+            <div className="col-md-6 d-flex align-items-center justify-content-center">
+  <div className="container-sm d-flex justify-content-center align-items-center" style={{ backgroundColor: 'rgba(239, 202, 69, 1)', borderRadius: '10px' }}>
+    <a className="navbar-brand" href="https://www.acatlan.unam.mx/">
+      <img 
+        src="https://www.acatlan.unam.mx/identidad-acatlan/img/Logotipos/Escudo/escudo-a.png" 
+        alt="Logo Fes Acatlan" 
+        className="img-fluid" 
+        style={{ maxWidth: '100%', maxHeight: '200px' }} // Hacer la imagen responsiva y definir un tamaño máximo
+      />
+    </a>
+  </div>
+</div>
+
               <div className="col-md-6 d-flex align-items-center justify-content-center">
                 <form>
                   <div className="mb-3">
