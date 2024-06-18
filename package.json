@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.3.0",
     "bootstrap": "^5.3.3",
     "install": "^0.13.0",
     "next": "^14.2.3",
