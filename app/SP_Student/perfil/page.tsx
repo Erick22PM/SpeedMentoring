@@ -1,13 +1,13 @@
 import React from 'react';
-import Layout from '../components/Layout/Layout';
+import Layout from '../../components/Layout/Layout';
 
 import Link from 'next/link';
 
 export default function Page() {
   return (
-    <Layout navbar={true} userType="mentor">
+    <Layout navbar={true} userType="student">
       <div>
-        Página del mentor.
+        Página de estudiante. Perfil.
       </div>
     </Layout>
   );

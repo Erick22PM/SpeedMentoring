@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <Layout navbar={true} userType="student">
       <div>
-        Página del estudiante.
+        Página de estudiante. Agenda.
       </div>
     </Layout>
   );
