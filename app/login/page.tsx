@@ -35,7 +35,7 @@ export default function Page() {
                   </div>
                   <div className="mb-3">
                     <h6 style={{ color: 'white', fontSize: '13px', textAlign: 'center' }}>
-                      <Link href="/login" legacyBehavior>
+                      <Link href="/login/buscarCuenta" legacyBehavior>
                         <a style={{ color: 'white', textDecoration: 'underline' }}>¿Haz olvidado tu contraseña?</a>
                       </Link>
                     </h6>
