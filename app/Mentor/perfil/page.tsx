@@ -81,7 +81,6 @@ export default function Page() {
                       style={{
                         backgroundColor: '#002B7A',
                         color: '#FFFFFF',
-                        borderColor: '#EFCA45',
                         borderRadius: '20px'
                       }}>
                       Guardar
