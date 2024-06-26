@@ -19,12 +19,23 @@ export default function Page() {
                     <a className="btn btn-warning btn-outline-dark mt-2" role="button" style={{ borderRadius: '20px' }}>Modificar calificación</a>
                   </form>
                 </div>
-                <div className="col-12 col-md-7 order-first order-md-last m-1 d-flex flex-column" style={{ backgroundColor: 'white', borderColor:'#908486', borderWidth: '4px', borderStyle: 'solid', minHeight:'600px' }}>
-                    <textarea className="flex-grow-1 p-2" style={{ border: 'none', resize: 'none', outline: 'none', width: '100%' }} placeholder="Escribe aquí tu reporte de la sesión..."></textarea>
-                    <div className="d-flex justify-content-center p-4">
-                        <button className="btn btn-warning btn-outline-dark">Guardar</button>
-                    </div>
-                </div>
+                <div className="col-12 col-md-7 order-first order-md-last m-1 d-flex flex-column" style={{ backgroundColor: 'white', borderColor: '#908486', borderWidth: '4px', borderStyle: 'solid', minHeight: '600px' }}>
+  <textarea className="flex-grow-1 p-2" style={{ border: 'none', resize: 'none', outline: 'none', width: '100%' }}>
+    Posiblemente son descendientes del muflón salvaje de 
+    Europa y Asia y fueron uno de los primeros animales en 
+    ser domesticados para fines agrícolas, criados 
+    principalmente por su lana, carne y leche. La lana de 
+    oveja es la fibra animal más utilizada y, por lo general, 
+    se recoge mediante esquila. Su carne recibe el nombre 
+    de carne de cordero cuando es de un animal joven y de 
+    ovino mayor cuando proviene de animales de más de 
+    un año. También se crían como organismo modelo para 
+    la investigación científica.
+  </textarea>
+  <div className="d-flex justify-content-center p-4">
+    <button className="btn btn-warning btn-outline-dark">Editar</button>
+  </div>
+</div>
             </div>
         </div>
     </Layout>
