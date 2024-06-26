@@ -35,7 +35,7 @@ export default function Page() {
             <div className="mb-3 row d-flex align-items-center justify-content-center my-4">
                 <button
                   type="submit"
-                  className="btn btn-sm w-50 my-4" // Clase btn-sm para hacer el botón más pequeño
+                  className="btn btn-sm w-50 my-4"
                   style={{
                     backgroundColor: '#002B7A',
                     color: '#FFFFFF',
