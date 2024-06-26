@@ -3,10 +3,10 @@ import Layout from '../../components/Layout/Layout';
 
 export default function Page() {
   return (
-    <Layout navbar={true} userType="student">
+    <Layout navbar={true} userType="mentor">
       <div className="container-sm my-5" style={{ backgroundColor: 'rgba(245, 230, 232, 0.8)', borderRadius: '25px' }}>
         <div className="container">
-          <h2 className="mx-5">Cuenta</h2>
+          <h2 className="mx-4 pt-4">Cuenta</h2>
           <div className="m-5">
             <div className="mb-3 row">
               <label htmlFor="staticEmail" className="col-sm-2 col-form-label">Nombre</label>
@@ -36,6 +36,12 @@ export default function Page() {
                   value="317285361@pcpuma.acatlan.unam.mx"
                   aria-label="Correo electrónico"
                 />
+              </div>
+            </div>
+            <div className="mb-3 row">
+              <label className="col-sm-2 col-form-label">Contraseña</label>
+              <div className="col-sm-10">
+                <a type="button" href='/Mentor/perfil/changePassword' className="btn btn-primary" style={{ backgroundColor:'#002B7A', borderColor:'#002B7A' }}>Cambiar contraseña</a>
               </div>
             </div>
             <div className="my-5 mb-3 row">

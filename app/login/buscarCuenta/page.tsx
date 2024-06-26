@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <Layout navbar={true} userType="none">
       <div>
-        <div className="alert alert-info mx-5" role="alert">
+        <div className="alert alert-info m-5 p-3" role="alert">
           Para recuperar su contraseña, ingrese la dirección de correo electrónico que registró en la plataforma.
         </div>
         <div className="container-sm my-5" style={{ backgroundColor: 'rgba(0, 43, 122, 0.8)', borderRadius: '25px' }}>

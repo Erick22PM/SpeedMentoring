@@ -6,7 +6,7 @@ export default function Page() {
     <Layout navbar={true} userType="student">
       <div className="container-sm my-5" style={{ backgroundColor: 'rgba(245, 230, 232, 0.8)', borderRadius: '25px' }}>
         <div className="container">
-          <h2 className="mx-5">Cuenta</h2>
+          <h2 className="mx-4 pt-4">Cuenta</h2>
           <div className="m-5">
             <div className="mb-3 row">
               <label htmlFor="staticEmail" className="col-sm-2 col-form-label">Nombre</label>
@@ -30,6 +30,12 @@ export default function Page() {
               <label htmlFor="staticEmail" className="col-sm-2 col-form-label">Correo electrónico</label>
               <div className="col-sm-10">
                 <input type="text" readOnly className="form-control-plaintext" id="staticEmail" value="317285361@pcpuma.acatlan.unam.mx" />
+              </div>
+            </div>
+            <div className="mb-3 row">
+              <label className="col-sm-2 col-form-label">Contraseña</label>
+              <div className="col-sm-10">
+                <a type="button" href='/Estudiante/perfil/changePassword' className="btn btn-primary" style={{ backgroundColor:'#002B7A', borderColor:'#002B7A' }}>Cambiar contraseña</a>
               </div>
             </div>
             <div className="mb-3 row d-flex align-items-center justify-content-center my-4">
