@@ -82,7 +82,7 @@ export default function Page() {
                 <div className="row">
                   <div className="col">
                   </div>
-                  <div className="col" style={{ backgroundColor: '#EFCA45', borderRadius: '25px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                  <div className="col" style={{ backgroundColor: '#EFCA45', borderRadius: '25px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minWidth:'250px' }}>
                     <div className="row">
                       <div className='col'>
                         <a href="#" className="btn btn-link" style={{ color: "#3A2E01", fontSize: '14px' }}>Anterior</a>

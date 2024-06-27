@@ -20,7 +20,7 @@ export default function Page() {
                   </form>
                 </div>
                 <div className="col-12 col-md-7 order-first order-md-last m-1 d-flex flex-column" style={{ backgroundColor: 'white', borderColor:'#908486', borderWidth: '4px', borderStyle: 'solid', minHeight:'600px' }}>
-                    <textarea className="flex-grow-1 p-2" style={{ border: 'none', resize: 'none', outline: 'none', width: '100%' }} placeholder="Escribe aquí tu reporte de la sesión..."></textarea>
+                    <textarea className="flex-grow-1 p-2" style={{ border: 'none', resize: 'none', outline: 'none', width: '100%' }} placeholder="Escribe aquí tu reporte de la sesión. Debe contener: Objetivos establecidos y/o logrados, temas discutidos, acciones a seguir, ..."></textarea>
                     <div className="d-flex justify-content-center p-4">
                         <button className="btn btn-warning btn-outline-dark">Guardar</button>
                     </div>
